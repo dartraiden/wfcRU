@@ -1,0 +1,407 @@
+﻿// Author: Alexandru Dicu 
+// Version: 6.2.0.0 (24.06.2020)
+
+// General
+
+000 = English
+001 = Yes
+002 = No
+003 = OK
+004 = Exit
+005 = Main Panel
+006 = Rules Panel
+007 = Browse for the program that you want to allow
+008 = Browse for the program that you want to block
+009 = Click on a program window to allow connecting
+010 = Click on a program window to block connecting
+011 = Or click on this dialog to cancel this operation
+012 = A new rule was successfully created to allow connections for
+013 = A new rule was successfully created to block connections for
+016 = A complete policy was successfully imported from
+017 = A complete policy was successfully exported to
+018 = The default policy was successfully restored.
+021 = Specify the full path of the file that this rule matches
+022 = A partial policy was successfully imported from
+023 = A partial policy was successfully exported to
+024 = Failed to import the policy file
+025 = Failed to export the policy file
+028 = Connected to location
+029 = Get more information
+030 = Lock the state of Windows Firewall
+031 = Unlock the state of Windows Firewall
+032 = Lock
+033 = Unlock
+034 = Cancel
+035 = Please set your password
+036 = Enter password to unlock
+037 = Invalid password
+038 = Show password
+039 = Open the website
+040 = Manage Windows Firewall rules
+042 = Are you sure you want to disable Windows Firewall protection?
+043 = Do not show again
+044 = Read Only
+045 = Inbound rules with EdgeTraversal set to 'Defer to user' support only limited customization, therefore some properties will be disabled. Do you want to continue?
+046 = Are you sure you want to delete these rules?
+050 = Extended properties
+051 = This rule contains extra properties which are configurable only from WFwAS
+053 = None
+052 = Count
+060 = Refresh settings
+061 = Auto refresh on open
+070 = Dashboard
+071 = Try Malwarebytes Premium
+072 = Open Malwarebytes
+073 = Windows Firewall state
+074 = On
+075 = Off
+076 = Inbound connections
+077 = Outbound connections
+078 = Allow all
+079 = Allow
+080 = Block
+081 = Block all
+
+// Tab items
+
+100 = Profiles
+200 = Notifications
+300 = Options
+400 = Rules
+500 = Tools
+600 = About
+
+// Profiles
+
+101 = Filtering level specifies which connections should be blocked and which connections should be allowed
+102 = High Filtering
+103 = All outbound and inbound connections are blocked. This profile blocks all attempts to connect to and from your computer.
+104 = Medium Filtering (recommended)
+105 = Outbound connections that do not match a rule are blocked. Only the programs with an allow rule are allowed.
+106 = Low Filtering
+107 = Outbound connections that do not match a rule are allowed. Only the programs with a block rule are blocked.
+108 = No Filtering
+109 = Windows Firewall is turned off. Avoid using this setting unless you have another firewall running.
+110 = Medium Filtering
+111 = Specify the profile that will be reverted in case it is switched to a lower filtering profile for installing/updating purposes
+112 = Automatically set
+113 = after
+114 = minutes
+
+// Notifications
+
+201 = Notifications mode specifies which blocked outbound connections should be displayed to the user
+204 = Display notifications
+205 = Display notifications for all blocked outbound connections but do not display them for the programs defined as exceptions below
+206 = Learning mode
+207 = Automatically create outbound allow rules for digitally signed programs and display notifications only for unsigned programs
+208 = Disabled
+209 = Do not display notifications.
+210 = Notifications options
+211 = Automatically close a notification in
+212 = seconds.
+213 = Custom timeout for temporary rules is
+214 = Play a sound when a new notification is generated
+215 = Play default sound
+216 = Play custom sound
+217 = Please select a custom notification sound
+220 = Display notifications on top of other windows
+221 = Advanced notifications settings
+222 = Reset default advanced settings
+223 = Use allow rules when searching for matching rules. Recommended for compatibility with other security programs if duplicate notifications are displayed.
+224 = Use generic block rules when searching for matching rules. If a block rule that apply to all programs matches the blocked connection, the notifications will not be displayed.
+225 = Use disabled rules when searching for matching rules. If a matching disabled rule is found the notifications will not be displayed.
+230 = Rule created by Learning mode
+240 = Define below the programs and folders for which the notifications should not be displayed
+241 = Notifications exceptions
+242 = Add exception
+243 = Remove exception
+244 = Define here a new exception
+245 = Add to notifications exceptions
+246 = Exclude file
+247 = Exclude folder
+
+// Options
+
+301 = Specify below the options to apply for all user accounts from the local computer
+302 = Shell Integration
+303 = Integrate the program into the context menu of the executable files and the shortcuts of executable files.
+304 = Start automatically at user logon
+305 = When using Fast User Switching feature, this option applies for the first logon of the user.
+308 = Global HotKeys
+309 = Global HotKeys are keyboard shortcuts that you can use from within any running application.
+321 = High Filtering profile is enabled. Network connections are blocked until the profile is switched manually.
+324 = Import, export or restore the user settings
+325 = Import user settings from file
+326 = Export user settings to a file
+327 = Reset all settings to the default values
+328 = User settings were successfully exported to
+329 = After confirming this action, the program will restart in order to reload all the settings. Are you sure you want to continue?
+330 = Allow through Windows Firewall
+331 = Block through Windows Firewall
+340 = User interface language
+
+// Rules
+
+401 = Specify the direction for which a new rule is applied when creating a new rule:
+402 = Outbound (recommended)
+403 = By default create only outbound rules when creating new rules to allow or block applications.
+404 = Inbound
+405 = By default create only inbound rules. Use this option with caution. Inbound access is usually required for server applications.
+406 = Outbound and inbound
+407 = By default create both types of rules. Not recommended.
+408 = Specify the locations for which a new rule is applied when creating a new rule:
+409 = Import, export or restore firewall rules
+410 = Import Windows Firewall rules from a file
+411 = Export Windows Firewall rules to a file
+412 = Restore Windows Firewall default set of rules
+413 = Restore Windows Firewall Control recommended rules
+414 = A complete policy file was selected. Importing firewall rules from this file will overwrite all of the current Windows Firewall rules. If you wish to save a copy of your current rules, you should first export them to a file. Do you want to import firewall rules from the selected file?
+415 = Restoring the default set of rules will reset all changes to settings of Windows Firewall that you have made since Windows was installed. This may cause some programs to stop working. Do you want to continue?
+416 = Import from file...
+417 = Export to file...
+418 = WFC recommended rules were recreated successfully.
+419 = Please refresh the rules in Rules Panel window. Thank you.
+420 = This action will erase all the current records from the Windows Firewall log. Are you sure you want to continue?
+421 = A partial policy file was selected. Importing firewall rules from this file will leave your current rules unchanged and the rules contained in this file will be added to your current set of rules. Do you want to import firewall rules from the selected file?
+422 = The file is not accessible or has an invalid format!
+423 = Restoring the WFC recommended rules will recreate these rules again. The current existing rules will remain unchanged. Do you want to continue?
+
+// Security
+
+450 = Security
+451 = Specify below the security enhancements that will be enforced by Malwarebytes Windows Firewall Control
+452 = Secure Boot
+453 = Automatically set High Filtering profile at system shut down. At Windows start-up, all network connections will be blocked until the user manually changes the profile.
+454 = Secure Rules
+455 = Enable protection against firewall rules that are not created in the authorized groups defined below. This applies to the newly created firewall rules and to existing ones.
+456 = Authorized groups
+457 = Add group
+458 = Remove group
+459 = Define here a new authorized group
+460 = Warning. All firewall rules, including Windows Firewall default firewall rules, which have the group name different than the authorized groups defined will be deleted or disabled. Creating a backup copy of your current rules is recommended. Are you sure you want to continue?
+461 = Import group names from the current existing rules
+466 = Rules with no group defined were detected. To preserve them, do you want to add these rules to Windows Firewall Control group before enabling Secure rules?
+467 = Authorize group
+470 = Secure Profile
+471 = Protect Windows Firewall state from external tampering. When this feature is enabled, importing firewall rules and changing the filtering mode can be done only through this software.
+475 = Delete unauthorized rules
+476 = Disable unauthorized rules
+477 = Allow Windows Store rules
+
+// Tools
+
+501 = Use the shortcuts below to launch various system utilities. Note that these programs will be executed with highest privileges available.
+502 = Windows Firewall with Advanced Security
+503 = Event Viewer
+504 = Resource Monitor
+505 = Windows Firewall Control Panel applet
+510 = Specify below the URL services used for various online verifications
+511 = URL to check an IP address reputation
+512 = URL to check a file based on the SHA256 hash of the file
+513 = URL to start a WHOIS query
+514 = URL to read more about a specific port
+520 = Copy...
+521 = All
+
+// About
+
+601 = About the program
+602 = Check if a new version is available
+603 = Unable to connect to the update server. Make sure you have the required rule to allow connections for this program and a correct proxy configuration, if required.
+605 = You are using the latest available version. A new version is not available at this time.
+606 = A new version of Malwarebytes Windows Firewall Control is available
+607 = Would you like to download and update to this new version?
+608 = View change log
+610 = All rights reserved.
+611 = Third-party notices
+612 = End User License Agreement (EULA)
+621 = Interface types
+622 = All interface types
+623 = Specific interface types
+624 = Local Area Network
+625 = Remote Access
+626 = Wireless
+627 = In
+628 = Out
+629 = Both
+640 = Edge traversal
+641 = ICMP settings
+642 = Freeze first column
+680 = Entries
+681 = All entries
+682 = Last entry
+690 = Automatic check for updates
+691 = Use proxy configuration
+692 = Proxy configuration
+693 = Address
+694 = Username
+695 = Password
+699 = Parent process
+
+// Manage Rules
+
+700 = Process ID
+701 = Name
+702 = Group
+703 = Program
+704 = Location
+705 = Enabled
+706 = Action
+707 = Direction
+708 = Local addresses
+709 = Local ports
+710 = Remote addresses
+711 = Remote ports
+712 = Protocol
+713 = Service
+714 = Description
+715 = Time generated
+716 = Actions
+717 = Refresh list
+718 = Show invalid rules
+719 = Clear log
+720 = Search rules
+721 = Connections Log
+722 = View Windows Firewall connections log
+723 = View
+724 = Display
+725 = Last 100 connections
+726 = Last 500 connections
+727 = All connections
+728 = connections
+729 = Columns configuration
+730 = Display
+731 = rules
+732 = All rules
+733 = Inbound rules
+734 = Outbound rules
+735 = User created rules
+736 = Filter
+737 = No filter
+738 = Filter by enabled
+739 = Filter by disabled
+740 = Search
+741 = Log connections
+742 = Policies
+743 = Import rules from a file
+744 = Export all rules
+745 = Export selected rules
+746 = Restore default rules
+747 = Restore recommended rules
+748 = Allowed connections
+749 = Blocked connections
+750 = Create new rule
+751 = Browse to allow
+752 = Click to allow
+753 = Browse to block
+754 = Click to block
+755 = Allow this program
+756 = Block this program
+757 = Blank rule
+758 = Customize and create
+759 = Disabling the logging for blocked connections will also disable the notifications. Are you sure you want to continue?
+760 = Options
+761 = Allow
+762 = Block
+763 = Enable
+764 = Disable
+765 = Delete
+766 = Properties
+767 = Create duplicate
+768 = General
+769 = Advanced
+770 = Apply
+771 = Protocols and ports
+772 = Local and remote IP addresses
+773 = Inbound
+774 = Outbound
+775 = Domain
+776 = Private
+777 = Public
+778 = All
+779 = Create
+780 = Any
+781 = All Ports
+782 = Custom Ports
+783 = Custom Addresses
+784 = All Programs
+785 = This program
+786 = Browse...
+787 = Eg: 80,443,9-29
+788 = Eg: 66.198.240.5
+792 = Please use the Refresh button or F5 key to load data
+793 = Please wait...
+794 = Add to group
+795 = Reset sorting
+796 = Connections
+797 = Recently blocked
+798 = Recently allowed
+799 = Show duplicate rules
+
+// Notification Dialog
+
+800 = Outgoing connection blocked
+801 = Source
+802 = Remote
+803 = Signed
+804 = Remote IP 
+805 = Customize this rule before creating it
+806 = Allow this program
+807 = Always allow this program to access the Internet
+808 = Block this program
+809 = Always block this program to access the Internet
+810 = Block for now and ask me later
+811 = Allow temporarily
+812 = Check this file
+813 = Start a WHOIS query
+814 = Verify this IP address
+815 = Open file location
+816 = Open file properties
+817 = Copy path to clipboard
+818 = Read more about port
+819 = Back to rule details
+823 = Allow temporarily
+824 = Block temporarily
+825 = Until WFC restart
+830 = Merge rules
+831 = Merged rule
+840 = Apply to all programs and services
+841 = Apply to services only
+850 = Source address
+851 = Source port
+852 = Destination address
+853 = Destination port
+860 = Not valid
+
+// Validations
+
+920 = Please enter a rule name
+921 = Empty spaces are not allowed
+922 = Port must be a value between 0 and 65535
+923 = Please enter a valid IP range
+924 = Please enter a valid IP address
+925 = Duplicate parameters are not allowed
+926 = Empty parameters are not allowed
+927 = Negative parameters are not allowed
+928 = Invalid port range
+929 = Field can not be empty
+930 = This file does not exist
+931 = Supported extensions
+932 = This field must be a numeric value between 0 and 999
+933 = Invalid subnet mask
+934 = This field must be a numeric value between 1 and 60
+935 = Required field
+936 = The program path of this rule is not accessible or does not exist anymore
+940 = Can't connect to Malwarebytes Windows Firewall Control service
+
+// Uninstall
+
+950 = Uninstall
+951 = This will remove the program from your computer. Please choose what you would like to do with the current Windows Firewall settings:
+952 = Reset to the default Windows Firewall settings. All user created rules will be deleted and only Windows Firewall default rules will be kept.
+953 = Restore to the state beforehand installing this program. All previous rules that were found at program installation will be restored.
+954 = Keep the current firewall rules and settings. Remove this program only and keep all other settings and rules like they are at this moment.
+956 = Disable Windows Firewall logging
+957 = Uninstallation in progress...
+958 = Uninstallation is not allowed while the program is locked with a password. Please unlock the program and then try again. Do not attempt to force the uninstall by using a 3rd party software because you will make Windows Firewall unusable.
