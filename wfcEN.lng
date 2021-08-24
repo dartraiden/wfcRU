@@ -1,5 +1,5 @@
 ﻿// Author: Alexandru Dicu 
-// Version: 6.4.0.0 (17.08.2020)
+// Version: 6.5.1.0 (22.08.2020)
 
 // General
 
@@ -19,7 +19,8 @@
 013 = A new rule was successfully created to block connections for
 016 = A complete policy was successfully imported from
 017 = A complete policy was successfully exported to
-018 = The default policy was successfully restored.
+018 = The default policy was successfully restored
+019 = Profile changes to
 021 = Specify the full path of the file that this rule matches
 022 = A partial policy was successfully imported from
 023 = A partial policy was successfully exported to
@@ -130,6 +131,7 @@
 305 = When using Fast User Switching feature, this option applies for the first logon of the user.
 308 = Global HotKeys
 309 = Global HotKeys are keyboard shortcuts that you can use from within any running application.
+310 = Toggle between Low and Medium filtering profiles
 321 = High Filtering profile is enabled. Network connections are blocked until the profile is switched manually.
 324 = Import, export or restore the user settings
 325 = Import user settings from file
@@ -161,7 +163,6 @@
 416 = Import from file...
 417 = Export to file...
 418 = WFC recommended rules were recreated successfully.
-419 = Please refresh the rules in Rules Panel window. Thank you.
 420 = This action will erase all the current records from the Windows Firewall log. Are you sure you want to continue?
 421 = A partial policy file was selected. Importing firewall rules from this file will leave your current rules unchanged and the rules contained in this file will be added to your current set of rules. Do you want to import firewall rules from the selected file?
 422 = The file is not accessible or has an invalid format!
