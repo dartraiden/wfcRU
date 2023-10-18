@@ -1,5 +1,5 @@
 ﻿// Author: Alexandru Dicu 
-// Version: 6.5.1.0 (22.08.2020)
+// Version: 6.9.5.0 (18.10.2023)
 
 // General
 
@@ -20,7 +20,7 @@
 016 = A complete policy was successfully imported from
 017 = A complete policy was successfully exported to
 018 = The default policy was successfully restored
-019 = Profile changes to
+019 = Profile changed to
 021 = Specify the full path of the file that this rule matches
 022 = A partial policy was successfully imported from
 023 = A partial policy was successfully exported to
@@ -131,7 +131,7 @@
 305 = When using Fast User Switching feature, this option applies for the first logon of the user.
 308 = Global HotKeys
 309 = Global HotKeys are keyboard shortcuts that you can use from within any running application.
-310 = Toggle between Low and Medium filtering profiles
+310 = Toggle between filtering profiles
 321 = High Filtering profile is enabled. Network connections are blocked until the profile is switched manually.
 324 = Import, export or restore the user settings
 325 = Import user settings from file
@@ -192,7 +192,7 @@
 
 // Tools
 
-501 = Use the shortcuts below to launch various system utilities. Note that these programs will be executed with highest privileges available.
+501 = Use the shortcuts below to launch various system utilities
 502 = Windows Firewall with Advanced Security
 503 = Event Viewer
 504 = Resource Monitor
@@ -391,7 +391,7 @@
 931 = Supported extensions
 932 = This field must be a numeric value between 0 and 999
 933 = Invalid subnet mask
-934 = This field must be a numeric value between 1 and 60
+934 = This field must be a numeric value between 1 and 300
 935 = Required field
 936 = The program path of this rule is not accessible or does not exist anymore
 940 = Can't connect to Malwarebytes Windows Firewall Control service
@@ -404,5 +404,5 @@
 953 = Restore to the state beforehand installing this program. All previous rules that were found at program installation will be restored.
 954 = Keep the current firewall rules and settings. Remove this program only and keep all other settings and rules like they are at this moment.
 956 = Disable Windows Firewall logging
-957 = Uninstallation in progress...
-958 = Uninstallation is not allowed while the program is locked with a password. Please unlock the program and then try again. Do not attempt to force the uninstall by using a 3rd party software because you will make Windows Firewall unusable.
+957 = Uninstall in progress...
+958 = Uninstall is not allowed while the program is locked with a password. Please unlock the program and then try again. Do not attempt to force the uninstall by using a 3rd party software because you will make Windows Firewall unusable.
