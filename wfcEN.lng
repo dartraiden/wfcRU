@@ -1,5 +1,5 @@
 ﻿// Author: Alexandru Dicu 
-// Version: 6.9.5.0 (18.10.2023)
+// Version: 6.9.8.0 (14.11.2023)
 
 // General
 
@@ -158,13 +158,12 @@
 411 = Export Windows Firewall rules to a file
 412 = Restore Windows Firewall default set of rules
 413 = Restore Windows Firewall Control recommended rules
-414 = A complete policy file was selected. Importing firewall rules from this file will overwrite all of the current Windows Firewall rules. If you wish to save a copy of your current rules, you should first export them to a file. Do you want to import firewall rules from the selected file?
 415 = Restoring the default set of rules will reset all changes to settings of Windows Firewall that you have made since Windows was installed. This may cause some programs to stop working. Do you want to continue?
 416 = Import from file...
 417 = Export to file...
 418 = WFC recommended rules were recreated successfully.
 420 = This action will erase all the current records from the Windows Firewall log. Are you sure you want to continue?
-421 = A partial policy file was selected. Importing firewall rules from this file will leave your current rules unchanged and the rules contained in this file will be added to your current set of rules. Do you want to import firewall rules from the selected file?
+421 = Importing firewall rules from this file will leave your current rules unchanged and the rules contained in this file will be added to your current set of rules. Do you want to import firewall rules from the selected file?
 422 = The file is not accessible or has an invalid format!
 423 = Restoring the WFC recommended rules will recreate these rules again. The current existing rules will remain unchanged. Do you want to continue?
 
