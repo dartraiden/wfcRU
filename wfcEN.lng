@@ -1,5 +1,5 @@
 ﻿// Author: Alexandru Dicu 
-// Version: 6.9.8.0 (14.11.2023)
+// Version: 6.9.9.1 (14.12.2023)
 
 // General
 
@@ -121,6 +121,7 @@
 245 = Add to notifications exceptions
 246 = Exclude file
 247 = Exclude folder
+248 = Exclude full path
 
 // Options
 
