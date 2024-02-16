@@ -1,5 +1,5 @@
 ﻿// Author: Alexandru Dicu 
-// Version: 6.9.9.1 (14.12.2023)
+// Version: 6.9.9.3 (28.01.2024)
 
 // General
 
@@ -62,6 +62,7 @@
 079 = Allow
 080 = Block
 081 = Block all
+090 = Request elevation
 
 // Tab items
 
