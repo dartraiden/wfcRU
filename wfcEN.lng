@@ -1,5 +1,5 @@
 ﻿// Author: Alexandru Dicu 
-// Version: 6.9.9.3 (28.01.2024)
+// Version: 6.12.0.0 (17.10.2024)
 
 // General
 
@@ -48,8 +48,9 @@
 051 = This rule contains extra properties which are configurable only from WFwAS
 053 = None
 052 = Count
-060 = Refresh settings
+060 = Settings
 061 = Auto refresh on open
+062 = Skip loopback and multicast
 070 = Dashboard
 071 = Try Malwarebytes Premium
 072 = Open Malwarebytes
