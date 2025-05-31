@@ -1,7 +1,7 @@
-﻿// Author: Alexandru Dicu 
-// Version: 6.12.0.0 (17.10.2024)
+﻿//Author: Alexandru Dicu 
+//Version: 6.16.0.0 (27.05.2025)
 
-// General
+//General
 
 000 = English
 001 = Yes
@@ -46,8 +46,8 @@
 046 = Are you sure you want to delete these rules?
 050 = Extended properties
 051 = This rule contains extra properties which are configurable only from WFwAS
-053 = None
 052 = Count
+053 = None
 060 = Settings
 061 = Auto refresh on open
 062 = Skip loopback and multicast
@@ -65,7 +65,7 @@
 081 = Block all
 090 = Request elevation
 
-// Tab items
+//Tab items
 
 100 = Profiles
 200 = Notifications
@@ -74,7 +74,7 @@
 500 = Tools
 600 = About
 
-// Profiles
+//Profiles
 
 101 = Filtering level specifies which connections should be blocked and which connections should be allowed
 102 = High Filtering
@@ -91,7 +91,7 @@
 113 = after
 114 = minutes
 
-// Notifications
+//Notifications
 
 201 = Notifications mode specifies which blocked outbound connections should be displayed to the user
 204 = Display notifications
@@ -125,7 +125,7 @@
 247 = Exclude folder
 248 = Exclude full path
 
-// Options
+//Options
 
 301 = Specify below the options to apply for all user accounts from the local computer
 302 = Shell Integration
@@ -146,7 +146,7 @@
 331 = Block through Windows Firewall
 340 = User interface language
 
-// Rules
+//Rules
 
 401 = Specify the direction for which a new rule is applied when creating a new rule:
 402 = Outbound (recommended)
@@ -170,7 +170,7 @@
 422 = The file is not accessible or has an invalid format!
 423 = Restoring the WFC recommended rules will recreate these rules again. The current existing rules will remain unchanged. Do you want to continue?
 
-// Security
+//Security
 
 450 = Security
 451 = Specify below the security enhancements that will be enforced by Malwarebytes Windows Firewall Control
@@ -192,7 +192,7 @@
 476 = Disable unauthorized rules
 477 = Allow Windows Store rules
 
-// Tools
+//Tools
 
 501 = Use the shortcuts below to launch various system utilities
 502 = Windows Firewall with Advanced Security
@@ -207,14 +207,13 @@
 520 = Copy...
 521 = All
 
-// About
+//About
 
 601 = About the program
 602 = Check if a new version is available
-603 = Unable to connect to the update server. Make sure you have the required rule to allow connections for this program and a correct proxy configuration, if required.
 605 = You are using the latest available version. A new version is not available at this time.
 606 = A new version of Malwarebytes Windows Firewall Control is available
-607 = Would you like to download and update to this new version?
+607 = Would you like to download the new installer and execute it from the following location?
 608 = View change log
 610 = All rights reserved.
 611 = Third-party notices
@@ -242,7 +241,7 @@
 695 = Password
 699 = Parent process
 
-// Manage Rules
+//Manage Rules
 
 700 = Process ID
 701 = Name
@@ -342,7 +341,7 @@
 798 = Recently allowed
 799 = Show duplicate rules
 
-// Notification Dialog
+//Notification Dialog
 
 800 = Outgoing connection blocked
 801 = Source
@@ -377,7 +376,7 @@
 853 = Destination port
 860 = Not valid
 
-// Validations
+//Validations
 
 920 = Please enter a rule name
 921 = Empty spaces are not allowed
@@ -398,7 +397,7 @@
 936 = The program path of this rule is not accessible or does not exist anymore
 940 = Can't connect to Malwarebytes Windows Firewall Control service
 
-// Uninstall
+//Uninstall
 
 950 = Uninstall
 951 = This will remove the program from your computer. Please choose what you would like to do with the current Windows Firewall settings:
