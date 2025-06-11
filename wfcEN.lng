@@ -1,5 +1,5 @@
 ﻿//Author: Alexandru Dicu 
-//Version: 6.16.0.0 (27.05.2025)
+//Version: 6.17.0.0 (02.06.2025)
 
 //General
 
@@ -395,6 +395,7 @@
 934 = This field must be a numeric value between 1 and 300
 935 = Required field
 936 = The program path of this rule is not accessible or does not exist anymore
+937 = Property can not contain special character |
 940 = Can't connect to Malwarebytes Windows Firewall Control service
 
 //Uninstall
