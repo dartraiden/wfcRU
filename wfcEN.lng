@@ -1,5 +1,5 @@
 ﻿//Author: Alexandru Dicu 
-//Version: 6.17.0.0 (02.06.2025)
+//Version: 6.18.0.0 (04.06.2025)
 
 //General
 
@@ -211,6 +211,7 @@
 
 601 = About the program
 602 = Check if a new version is available
+604 = Operation has timed out. Please retry later or you can also try to manually download and execute the new installer.
 605 = You are using the latest available version. A new version is not available at this time.
 606 = A new version of Malwarebytes Windows Firewall Control is available
 607 = Would you like to download the new installer and execute it from the following location?
