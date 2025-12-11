@@ -1,5 +1,5 @@
 ﻿//Author: Alexandru Dicu 
-//Version: 6.18.0.0 (04.06.2025)
+//Version: 6.24.0.0 (December 05, 2025)
 
 //General
 
@@ -240,6 +240,7 @@
 693 = Address
 694 = Username
 695 = Password
+696 = Include beta updates
 699 = Parent process
 
 //Manage Rules
