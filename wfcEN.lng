@@ -1,5 +1,5 @@
 ﻿//Author: Alexandru Dicu 
-//Version: 6.24.0.0 (December 05, 2025)
+//Version: 6.34.0.0 (September 20, 2026)
 
 //General
 
@@ -64,6 +64,7 @@
 080 = Block
 081 = Block all
 090 = Request elevation
+091 = Remove elevation
 
 //Tab items
 
@@ -97,7 +98,7 @@
 204 = Display notifications
 205 = Display notifications for all blocked outbound connections but do not display them for the programs defined as exceptions below
 206 = Learning mode
-207 = Automatically create outbound allow rules for digitally signed programs and display notifications only for unsigned programs
+207 = Automatically create outbound allow rules for digitally signed programs and display notifications only for unsigned programs. In non elevated mode, no rule is created automatically and notifications are always displayed.
 208 = Disabled
 209 = Do not display notifications.
 210 = Notifications options
@@ -114,7 +115,12 @@
 223 = Use allow rules when searching for matching rules. Recommended for compatibility with other security programs if duplicate notifications are displayed.
 224 = Use generic block rules when searching for matching rules. If a block rule that apply to all programs matches the blocked connection, the notifications will not be displayed.
 225 = Use disabled rules when searching for matching rules. If a matching disabled rule is found the notifications will not be displayed.
-230 = Rule created by Learning mode
+230 = Rule created by Learning mode.
+231 = Rule created from Connections Log.
+232 = Rule created from shell integration.
+233 = Rule created by browsing the file.
+234 = Rule created by clicking on the program window.
+235 = Rule created from the notification dialog.
 240 = Define below the programs and folders for which the notifications should not be displayed
 241 = Notifications exceptions
 242 = Add exception
@@ -124,6 +130,9 @@
 246 = Exclude file
 247 = Exclude folder
 248 = Exclude full path
+249 = Edit exception
+250 = Convert to lowercase
+251 = Convert to UPPERCASE
 
 //Options
 
@@ -135,6 +144,7 @@
 308 = Global HotKeys
 309 = Global HotKeys are keyboard shortcuts that you can use from within any running application.
 310 = Toggle between filtering profiles
+311 = Toggle Request elevation / Remove elevation
 321 = High Filtering profile is enabled. Network connections are blocked until the profile is switched manually.
 324 = Import, export or restore the user settings
 325 = Import user settings from file
@@ -161,6 +171,7 @@
 411 = Export Windows Firewall rules to a file
 412 = Restore Windows Firewall default set of rules
 413 = Restore Windows Firewall Control recommended rules
+414 = Importing firewall rules from this file will overwrite all current Windows Firewall rules. If you wish to save a copy of your current rules, you should first export them to a file. Do you want to import firewall rules from the selected file?
 415 = Restoring the default set of rules will reset all changes to settings of Windows Firewall that you have made since Windows was installed. This may cause some programs to stop working. Do you want to continue?
 416 = Import from file...
 417 = Export to file...
@@ -191,6 +202,8 @@
 475 = Delete unauthorized rules
 476 = Disable unauthorized rules
 477 = Allow Windows Store rules
+478 = Secure Access
+479 = Require elevated privileges for write access. Keep this enabled for improved security or disabled for convenience.
 
 //Tools
 
@@ -211,6 +224,7 @@
 
 601 = About the program
 602 = Check if a new version is available
+603 = The returned response is a captive portal/DNS/VPN redirect which does not match the expected format.
 604 = Operation has timed out. Please retry later or you can also try to manually download and execute the new installer.
 605 = You are using the latest available version. A new version is not available at this time.
 606 = A new version of Malwarebytes Windows Firewall Control is available
@@ -329,11 +343,12 @@
 781 = All Ports
 782 = Custom Ports
 783 = Custom Addresses
-784 = All Programs
+784 = All programs
 785 = This program
 786 = Browse...
 787 = Eg: 80,443,9-29
 788 = Eg: 66.198.240.5
+789 = Application package
 792 = Please use the Refresh button or F5 key to load data
 793 = Please wait...
 794 = Add to group
@@ -372,11 +387,13 @@
 831 = Merged rule
 840 = Apply to all programs and services
 841 = Apply to services only
+842 = Apply to application packages only
 850 = Source address
 851 = Source port
 852 = Destination address
 853 = Destination port
 860 = Not valid
+861 = Local user owner
 
 //Validations
 
@@ -396,7 +413,7 @@
 933 = Invalid subnet mask
 934 = This field must be a numeric value between 1 and 300
 935 = Required field
-936 = The program path of this rule is not accessible or does not exist anymore
+936 = The program path is not accessible or does not exist anymore
 937 = Property can not contain special character |
 940 = Can't connect to Malwarebytes Windows Firewall Control service
 
