@@ -1,5 +1,5 @@
 ﻿//Author: Alexandru Dicu 
-//Version: 6.34.0.0 (September 20, 2026)
+//Version: 6.38.0.0 (October 28, 2026)
 
 //General
 
@@ -349,10 +349,11 @@
 787 = Eg: 80,443,9-29
 788 = Eg: 66.198.240.5
 789 = Application package
+791 = Group by...
 792 = Please use the Refresh button or F5 key to load data
 793 = Please wait...
 794 = Add to group
-795 = Reset sorting
+795 = Reset sorting and grouping
 796 = Connections
 797 = Recently blocked
 798 = Recently allowed
@@ -364,7 +365,7 @@
 801 = Source
 802 = Remote
 803 = Signed
-804 = Remote IP 
+804 = Remote IP
 805 = Customize this rule before creating it
 806 = Allow this program
 807 = Always allow this program to access the Internet
